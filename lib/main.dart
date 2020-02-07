@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:travel_brandzgarage/providers/categoriesProvider.dart';
 import 'package:travel_brandzgarage/providers/placeProvider.dart';
 import 'package:travel_brandzgarage/screens/homepagescreen.dart';
+import 'package:travel_brandzgarage/screens/placedetailscreen.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,8 +20,14 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: HomePageScreen(),
         theme: ThemeData(
-            //appBarTheme: AppBarTheme()
+            appBarTheme: AppBarTheme(
+              color: Colors.transparent,
+              
+            )
             ),
+            routes: {
+              PlaceDetailScreen.routename: (ctx) => PlaceDetailScreen(),
+            },
       ),
     );
   }

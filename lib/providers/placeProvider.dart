@@ -10,7 +10,7 @@ class PlaceProvider with ChangeNotifier {
       imgUrl: "assets/images/img1.jpg",
       category: ["c1", "c2"],
       cityName: "city1",
-      eventdate: "Saturday 25",
+      eventdate: "FRI, DEC 19th - MON, DEC 27th",
       placeLocation: PlaceLocation(
           latitude: 28.52, longitude: 52.12, address: "Address 1"),
       isFavourite: false,
@@ -21,10 +21,10 @@ class PlaceProvider with ChangeNotifier {
       imgUrl: "assets/images/img2.jpg",
       category: ["c1", "c3"],
       cityName: "city1",
-      eventdate: "Saturday 25",
+      eventdate: "FRI, DEC 19th - MON, DEC 27th",
       placeLocation: PlaceLocation(
           latitude: 28.52, longitude: 52.12, address: "Address 2"),
-      isFavourite: false,
+      isFavourite: true,
     ),
     PlaceItem(
       placeid: "p3",
@@ -32,7 +32,7 @@ class PlaceProvider with ChangeNotifier {
       imgUrl: "assets/images/img3.jpg",
       category: ["c1", "c4"],
       cityName: "city3",
-      eventdate: "Saturday 25",
+      eventdate: "FRI, DEC 19th - MON, DEC 27th",
       placeLocation: PlaceLocation(
           latitude: 28.52, longitude: 52.12, address: "Address 3"),
       isFavourite: false,
@@ -43,7 +43,7 @@ class PlaceProvider with ChangeNotifier {
       imgUrl: "assets/images/img4.jpg",
       category: ["c1", "c5"],
       cityName: "city1",
-      eventdate: "Saturday 25",
+      eventdate: "FRI, DEC 19th - MON, DEC 27th",
       placeLocation: PlaceLocation(
           latitude: 28.52, longitude: 52.12, address: "Address 4"),
       isFavourite: false,
@@ -54,10 +54,10 @@ class PlaceProvider with ChangeNotifier {
       imgUrl: "assets/images/img5.jpg",
       category: ["c1", "c6"],
       cityName: "city5",
-      eventdate: "Saturday 25",
+      eventdate: "FRI, DEC 19th - MON, DEC 27th",
       placeLocation: PlaceLocation(
           latitude: 28.52, longitude: 52.12, address: "Address 5"),
-      isFavourite: false,
+      isFavourite: true,
     ),
     PlaceItem(
       placeid: "p6",
@@ -65,7 +65,7 @@ class PlaceProvider with ChangeNotifier {
       imgUrl: "assets/images/img6.jpg",
       category: ["c1", "c2"],
       cityName: "city6",
-      eventdate: "Saturday 25",
+      eventdate: "FRI, DEC 19th - MON, DEC 27th",
       placeLocation: PlaceLocation(
           latitude: 28.52, longitude: 52.12, address: "Address 6"),
       isFavourite: false,
@@ -76,10 +76,10 @@ class PlaceProvider with ChangeNotifier {
       imgUrl: "assets/images/img7.jpg",
       category: ["c1", "c3"],
       cityName: "city7",
-      eventdate: "Saturday 25",
+      eventdate: "FRI, DEC 19th - MON, DEC 27th",
       placeLocation: PlaceLocation(
           latitude: 28.52, longitude: 52.12, address: "Address 7"),
-      isFavourite: false,
+      isFavourite: true,
     ),
     PlaceItem(
       placeid: "p8",
@@ -87,7 +87,7 @@ class PlaceProvider with ChangeNotifier {
       imgUrl: "assets/images/img8.jpg",
       category: ["c1", "c4"],
       cityName: "city8",
-      eventdate: "Saturday 25",
+      eventdate: "FRI, DEC 19th - MON, DEC 27th",
       placeLocation: PlaceLocation(
           latitude: 28.52, longitude: 52.12, address: "Address 8"),
       isFavourite: false,
@@ -109,14 +109,24 @@ class PlaceProvider with ChangeNotifier {
       imgUrl: "assets/images/img10.jpg",
       category: ["c1", "c6"],
       cityName: "city10",
-      eventdate: "Saturday 25",
+      eventdate: "FRI, DEC 19th - MON, DEC 27th",
       placeLocation: PlaceLocation(
           latitude: 28.52, longitude: 52.12, address: "Address 10"),
       isFavourite: false,
     ),
   ];
 
+  PlaceItem currentItem;
+
   List<PlaceItem> get items {
     return _items;
   }
+
+  void setCurrentItem(PlaceItem pitem){
+    this.currentItem = pitem;
+  }
+
+ 
+
+
 }

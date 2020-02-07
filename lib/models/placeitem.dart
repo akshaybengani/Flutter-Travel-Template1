@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:travel_brandzgarage/models/placeLocation.dart';
 
-class PlaceItem {
+class PlaceItem with ChangeNotifier{
   final String placeid;
   final String title;
   final String imgUrl;
@@ -21,4 +21,6 @@ class PlaceItem {
     @required this.placeLocation, 
     this.isFavourite,
   });
+
+
 }

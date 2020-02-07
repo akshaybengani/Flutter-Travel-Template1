@@ -74,7 +74,7 @@ class HomePageScreen extends StatelessWidget {
             ),
           ),
           Positioned(
-            top: screenHeight * 0.38,
+            top: screenHeight * 0.36,
             left: 20,
             child: Text(
               "Popular Events",
@@ -86,7 +86,7 @@ class HomePageScreen extends StatelessWidget {
             ),
           ),
           Positioned(
-            top: screenHeight * 0.46,
+            top: screenHeight * 0.43,
             left: 20,
             child: Container(
               width: MediaQuery.of(context).size.width,
