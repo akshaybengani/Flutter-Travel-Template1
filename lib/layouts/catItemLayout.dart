@@ -26,7 +26,7 @@ class CatItemLayout extends StatelessWidget {
         margin: EdgeInsets.all(5),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30),
-          color: isSelected ? Colors.purple[700] : Colors.blueGrey[800],
+          color: isSelected ? Colors.indigo[400] : Colors.blueGrey[800],
         ),
         width: 70,
         child: Column(
@@ -39,7 +39,7 @@ class CatItemLayout extends StatelessWidget {
                 CircleAvatar(
                     radius: 25,
                     backgroundColor:
-                        isSelected ? Colors.purple[500] : Colors.blueGrey[700]),
+                        isSelected ? Colors.indigo[500] : Colors.blueGrey[700]),
                 Text(catIcon),
               ],
             ),
