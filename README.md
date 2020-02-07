@@ -1,16 +1,8 @@
-# travel_brandzgarage
+# Travel App Template
 
-A new Flutter project.
+* The application is currently incomplete and needs lot of work before publishing it to play store, currently I have designed the Layout and user interface with some basic functionalites and Providers for state management.
+* The application is lot similar in look as per the Dribble Template I have tried my best to redesign the template and I know I can completely redesign the application just from the picture.
+<img src = "resources/sc1.jpg">
+<img src = "resources/sc2.jpg">
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
