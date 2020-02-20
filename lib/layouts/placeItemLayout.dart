@@ -25,7 +25,7 @@ class _PlaceItemLayoutState extends State<PlaceItemLayout> {
     return Card(
       elevation: 0,
       color: Colors.grey[900],
-      child: Container(
+      child: Container (
         width: widget.size.width * 0.56,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30),

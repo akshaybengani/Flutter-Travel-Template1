@@ -23,7 +23,7 @@ class HomePageScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[900],
       bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: Colors.blueGrey[900],
+        backgroundColor: Color(0xFFF),
         type: BottomNavigationBarType.fixed,
         currentIndex: 1,
         items: [
